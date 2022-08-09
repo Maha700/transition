@@ -1,0 +1,95 @@
+body {
+  background-color: yellow;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 45px;
+}
+.element-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+}
+ol {
+  padding: 3px;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.element1 {
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  transition: width 2s;
+}
+.element1:hover {
+  width: 300px;
+}
+.element2 {
+  width: 100px;
+  height: 100px;
+  background-color:greenyellow;
+  transition: all 2s;
+}
+.element2:hover {
+  width: 300px;
+  height: 300px;
+}
+.element3 {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    transition: all 4s;
+  }
+  .element3:hover {
+    width: 300px;
+  }
+  .element4 {
+    width: 100px;
+    height: 100px;
+    background-color:greenyellow;
+    transition: all 0s;
+  }
+  .element4:hover {
+    width: 300px;
+  }
+  .element5 {
+    width: 100px;
+    height: 100px;
+    background-color:greenyellow;
+    transition: all 6s;
+  }
+  .element5:hover {
+    width: 300px;
+  }
+  .element6 {
+    width: 100px;
+    height: 100px;
+    background-color:greenyellow;
+    transition: all 5s;
+  }
+  .element6:hover {
+    width: 300px;
+  }
+  .element7 {
+    width: 100px;
+    height: 100px;
+    background-color:greenyellow;
+    transition: all 1s;
+  }
+  .element7:hover {
+    width: 300px;
+  }
+  a{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2;
+    }
+
+
+  

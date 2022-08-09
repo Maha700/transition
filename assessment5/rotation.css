@@ -1,0 +1,138 @@
+body {
+  padding: 50px;
+  padding-top: 2px;
+}
+
+.full-container {
+  background-image: url("./sky.jpg");
+  border: 10px solid;
+  border-style: rigid;
+  border-top-color: white;
+  border-left-color: orange;
+  border-right-color: green;
+  border-bottom: none;
+  width: 1300px;
+  height: 650px;
+  padding:0;
+}
+h1 {
+  margin: 0;
+}
+.color1 {
+  background-color: orange;
+  font-size: 50px;
+  display: inline-block;
+  border: none;
+}
+.color2 {
+  background-color: white;
+  font-size: 50px;
+  display: inline-block;
+}
+.color3 {
+  background-color: green;
+  font-size: 49px;
+  display: inline-block;
+}
+.sun{
+  width:100px;
+  height:100px;
+  padding-top: 30px;
+  left:70%;
+  position: relative;
+  animation: sun linear infinite 2s;
+}
+@keyframes sun{
+    0%{
+      transform: translateX(0px);
+    }
+    100%{
+      transform: translateX(130px);
+    }
+  }
+
+.building{
+width:1300px;
+height:230px;
+margin: 0;
+padding-bottom: 0;
+animation: building infinite 2s;
+}
+@keyframes building{
+    100%{
+      transform: translateX(1px);
+      }
+    }
+.road{
+ margin: 0;
+ padding: 0;
+ height:230px;
+ width:1300px;
+ padding-top: 0;
+ top:-5px;
+ position: relative;
+ animation: road linear 2s infinite;
+}
+@keyframes road{
+    100%{
+      transform: translateX(1px);
+      }
+    }
+
+.carbody{
+  width:300px;
+  height:200px;
+  top:-300px;
+  left:150px;
+  position: relative;
+  animation: car linear infinite 2s;
+}
+@keyframes car{
+    0%{
+      transform: translateX(100px);
+    }
+    100%{
+      transform: translateX(700px);
+    }
+  }
+.frontwheel{
+  width:50px;
+  height:50px;
+  left:59px;
+  top:-330px;
+  position: relative;
+  animation: carwheel linear infinite 2s;
+}
+.backwheel{
+    width:50px;
+    height:50px;
+    left:-180px;
+    top:-330px;
+    position: relative;
+    animation: carwheel linear infinite 2s;
+
+  }
+  @keyframes carwheel{
+    0%{
+      transform: translateX(100px) rotate(0deg);
+    }
+    100%{
+      transform: translateX(700px) rotate(360deg);
+    }
+  }
+.flag{
+  width:70px;
+  height: 70px;
+  top:-400px;
+  left:-25px;
+  position: relative;
+  animation:linear flag 2s infinite;
+}
+@keyframes flag{
+    0%{
+     transform: translateX(100px);
+    } 
+    100%{
+      transform: translateX(700px);
+      }
+    }
